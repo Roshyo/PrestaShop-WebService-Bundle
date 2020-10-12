@@ -1,5 +1,5 @@
 {
-    "name": "iq2i/prestashop-webservice-bundle",
+    "name": "roshyo/prestashop-webservice-bundle",
     "type": "symfony-bundle",
     "description": "PrestaShop WebService library bundle",
     "license": "GPL-2.0",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "symfony/symfony": ">=2.1"
+        "symfony/symfony": ">=2.1 <5"
     },
     "autoload": {
         "psr-0": { "IQ2i\\PrestaShopWebServiceBundle\\": "" }
